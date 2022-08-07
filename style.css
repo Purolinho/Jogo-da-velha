@@ -1,0 +1,45 @@
+body {
+    background-color: #0c0c0c;
+    background-attachment: fixed;
+}
+
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    position: relative;
+    left: 0%;
+}
+
+
+#jogo{
+    width:603px;
+    height:545px;
+    border:solid 5px;
+    position: relative;
+    left: 27%;
+}
+ 
+.linha{
+    height:180px;
+    border-bottom:solid 1px;
+    color: rgb(197, 238, 238);
+}
+ 
+.casa{
+    width:200px;
+    height:100%;
+    border-right:solid 1px;
+    float:left;
+}
+
+.meio {
+    position: relative;
+    top: 18%;
+    left: 16%;
+}
